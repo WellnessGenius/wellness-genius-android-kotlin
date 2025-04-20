@@ -37,7 +37,7 @@
             android:layout_height="150dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardBackgroundColor="@colour/colorPrimary"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp"
             app:layout_constraintEnd_toStartOf="@+id/caloriesCardView"
@@ -48,7 +48,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
+                android:gravity="centre"
                 android:orientation="vertical">
 
                 <TextView
@@ -56,7 +56,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:colour/white"
                     android:textSize="40sp"
                     android:textStyle="bold" />
 
@@ -64,7 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/steps"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:colour/white"
                     android:textSize="16sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -74,7 +74,7 @@
             android:layout_width="0dp"
             android:layout_height="150dp"
             android:layout_marginStart="8dp"
-            app:cardBackgroundColor="@color/colorAccent"
+            app:cardBackgroundColor="@colour/colorAccent"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +84,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
+                android:gravity="centre"
                 android:orientation="vertical">
 
                 <TextView
@@ -92,7 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:colour/white"
                     android:textSize="40sp"
                     android:textStyle="bold" />
 
@@ -100,7 +100,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/calories"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:colour/white"
                     android:textSize="16sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -111,7 +111,7 @@
             android:layout_height="150dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            app:cardBackgroundColor="@color/colorHeartRate"
+            app:cardBackgroundColor="@colour/colorHeartRate"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp"
             app:layout_constraintEnd_toStartOf="@+id/bioAgeCardView"
@@ -121,7 +121,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
+                android:gravity="centre"
                 android:orientation="vertical">
 
                 <TextView
@@ -129,7 +129,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:colour/white"
                     android:textSize="40sp"
                     android:textStyle="bold" />
 
@@ -137,7 +137,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/bpm"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:colour/white"
                     android:textSize="16sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -147,7 +147,7 @@
             android:layout_width="0dp"
             android:layout_height="150dp"
             android:layout_marginStart="8dp"
-            app:cardBackgroundColor="@color/colorBioAge"
+            app:cardBackgroundColor="@colour/colorBioAge"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -157,7 +157,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
+                android:gravity="centre"
                 android:orientation="vertical">
 
                 <TextView
@@ -165,7 +165,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:colour/white"
                     android:textSize="40sp"
                     android:textStyle="bold" />
 
@@ -173,7 +173,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/bio_age"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:colour/white"
                     android:textSize="16sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>

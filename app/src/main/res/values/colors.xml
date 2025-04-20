@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#4A90E2</color>
-    <color name="colorPrimaryDark">#3F7AC4</color>
-    <color name="colorAccent">#FF9500</color>
-    <color name="colorHeartRate">#E74C3C</color>
-    <color name="colorBioAge">#2ECC71</color>
-    <color name="colorBackground">#F8F9FA</color>
-    <color name="colorText">#333333</color>
+    <colour name="colorPrimary">#4A90E2</colour>
+    <colour name="colorPrimaryDark">#3F7AC4</colour>
+    <colour name="colorAccent">#FF9500</colour>
+    <colour name="colorHeartRate">#E74C3C</colour>
+    <colour name="colorBioAge">#2ECC71</colour>
+    <colour name="colorBackground">#F8F9FA</colour>
+    <colour name="colorText">#333333</colour>
 </resources>
