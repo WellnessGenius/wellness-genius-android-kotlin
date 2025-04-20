@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.wellnessgenius.android.fragments.DashboardFragment"
+        android:label="@string/dashboard" />
+
+    <fragment
+        android:id="@+id/activitiesFragment"
+        android:name="com.wellnessgenius.android.fragments.ActivitiesFragment"
+        android:label="@string/activities" />
+
+    <fragment
+        android:id="@+id/challengesFragment"
+        android:name="com.wellnessgenius.android.fragments.ChallengesFragment"
+        android:label="@string/challenges" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.wellnessgenius.android.fragments.ProfileFragment"
+        android:label="@string/profile" />
+
+</navigation>
